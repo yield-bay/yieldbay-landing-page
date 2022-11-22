@@ -38,8 +38,9 @@ module.exports = {
       },
     },
     backgroundImage: {
-      "bg-pattern": "url('/Landing.png')",
-      "bg-pattern-mob": "url('/Landing-mobile.png')",
+      "bg-pattern": "url('/landing.png')",
+      "bg-pattern-sm": "url('/landing-sm.png')",
+      "bg-pattern-md": "url('/landing-md.png')",
       "hero-gradient":
         "linear-gradient(180deg, rgba(0, 14, 35, 0) 8.54%, #01050D 100%)",
       "hero-gradient-mob":

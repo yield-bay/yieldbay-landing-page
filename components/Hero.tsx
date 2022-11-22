@@ -12,7 +12,7 @@ export default function Hero() {
         web3 revolution.
       </h3>
       <button className="rounded-xl text-base font-spaceGrotesk font-bold text-baseBlueDark py-2 px-[18px] sm:py-3 sm:px-6 bg-white mb-8 sm:mb-10">
-        Launch App
+        <Link href="https://list.yieldbay.io">Launch App</Link>
       </button>
       <div className="flex flex-row items-center gap-4">
         <Link href="github.com/yield-bay">
