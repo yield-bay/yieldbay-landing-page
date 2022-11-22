@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="mx-auto max-w-xs md:max-w-3xl py-6 sm:py-11 md:py-[60px] flex flex-col items-center">
-      <h1 className="font-spaceGrotesk font-bold text-center text-[#D9D9D9] text-2xl sm:text-7xl  mb-8 sm:mb-10">
+      <h1 className="font-spaceGrotesk font-bold text-center text-[#D9D9D9] text-2xl sm:text-4xl md:text-7xl  mb-8 sm:mb-10">
         Your Portal for Defi in the Polkadot and Kusama Paraverse
       </h1>
       <h3 className="text-center text-md sm:text-xl font-spaceGrotesk max-w-lg font-medium mb-8 sm:mb-10">
