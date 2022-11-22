@@ -5,8 +5,10 @@ import Hero from "../components/Hero";
 const Home: NextPage = () => {
   return (
     <>
-      <Header />
-      <Hero />
+      <div className="flex flex-col min-h-screen font bg-baseBlue text-white  bg-bg-pattern-mob sm:bg-bg-pattern ">
+        <Header />
+        <Hero />
+      </div>
     </>
   );
 };
