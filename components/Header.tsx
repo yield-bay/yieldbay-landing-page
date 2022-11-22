@@ -17,7 +17,7 @@ export default function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <Button size="small">List your protocol</Button>
+          <Button size="small">Launch App</Button>
         </a>
       </div>
     </div>
