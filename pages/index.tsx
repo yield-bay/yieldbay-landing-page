@@ -7,7 +7,7 @@ import Hero from "../components/Hero";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen font bg-baseBlue text-white bg-bg-pattern-sm sm:bg-bg-pattern-md md:bg-bg-pattern bg-[center_top] sm:bg-center ">
+      <div className="flex flex-col min-h-screen font bg-baseBlue text-white bg-bg-pattern-sm sm:bg-bg-pattern-md md:bg-bg-pattern bg-[center_top] sm:bg-center">
         <Header />
         <Hero />
       </div>

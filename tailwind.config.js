@@ -38,7 +38,7 @@ module.exports = {
       },
     },
     backgroundImage: {
-      "bg-pattern": "url('/landing.png')",
+      "bg-pattern": "url('/Landing.png')",
       "bg-pattern-sm": "url('/landing-sm.png')",
       "bg-pattern-md": "url('/landing-md.png')",
       "hero-gradient":
