@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import Head from "next/head";
+
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -7,6 +9,9 @@ import Hero from "../components/Hero";
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>YieldBay</title>
+      </Head>
       <div className="flex flex-col min-h-screen font bg-baseBlue text-white bg-bg-pattern-sm sm:bg-bg-pattern-md md:bg-bg-pattern bg-[center_top] sm:bg-center">
         <Header />
         <Hero />
