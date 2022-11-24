@@ -13,7 +13,7 @@ export default function Header() {
       </Link>
       <div className="hidden sm:inline-flex items-center gap-x-4 sm:mr-2">
         <a
-          href="https://discord.gg/AKHuvbz7q4"
+          href="https://list.yieldbay.io/?utm_campaign=landing+page&utm_source=yb-landing&utm_medium=textlink"
           target="_blank"
           rel="noreferrer"
         >
