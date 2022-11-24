@@ -8,6 +8,7 @@ export default function useAnalyticsSetup(FATHOM_CODE: string) {
   useEffect(() => {
     Fathom.load(FATHOM_CODE, {
       url: "https://unreal-frankly-shankly.yieldbay.io/script.js",
+      includedDomains: ["yieldbay.io"],
     });
 
     function onRouteChangeComplete() {
