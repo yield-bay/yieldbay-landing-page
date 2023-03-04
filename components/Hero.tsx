@@ -21,7 +21,7 @@ export default function Hero() {
         </Link>
       </button>
       <div className="flex flex-row items-center gap-4">
-        <Link href="github.com/yield-bay" target={"_blank"} rel="noreferrer">
+        <Link href="https://github.com/yield-bay" target={"_blank"} rel="noreferrer">
           <Image src="/github.svg" alt="github logo" width="21" height="20" />
         </Link>
         <Link
